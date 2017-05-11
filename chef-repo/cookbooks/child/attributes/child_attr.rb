@@ -1,0 +1,1 @@
+default['child']['test'] = 'Am Child Attribute'

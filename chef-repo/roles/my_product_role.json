@@ -1,0 +1,22 @@
+{
+  "name": "my_product_role",
+  "description": "This is description",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+    "child": {
+      "test": [
+        "This is changed Child Attribute"
+      ]
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[parent::parent_recipe]"
+  ],
+  "env_run_lists": {
+
+  }
+}
